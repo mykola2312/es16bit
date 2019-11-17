@@ -1,0 +1,15 @@
+Sector 1 - bootloader
+Sector 2 - demo.bin part 1
+Sector 3 - demo.bin part 2
+Sector 4 - palette part 1
+Sector 5 - palette part 2
+Sector 6 - image part 1
+Sector 131 - image part 125
+Sector 132 - sound part 1
+Sector 694 - sound part 562
+
+demo.bin 07E0:0000
+dataload 0820:0000
+snd_seg1 0900:0000
+snd_seg2 0100:0000
+
